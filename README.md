@@ -3,7 +3,7 @@ Round icon looking buttons implemented in Swift created for the purpose of one o
 
 RoundButton.swift inherits from UIButton, so you can be be easily add listeners for it's events
 
-Round supports 
+######Round supports following states (looks): 
 * Camera
 * Picture
 * OK
@@ -15,7 +15,7 @@ Round supports
 * PictureNotAvailable 
 states.
 
-RoundButton has public properties
+######RoundButton has public properties: 
 * lineColor: UIColor - Color of the inner lines. 
 * roundColor: UIColor - Color of the border circle
 * roundLineWidth: CGFloat - Width of the circle border
