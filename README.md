@@ -21,7 +21,7 @@ states.
 * roundLineWidth: CGFloat - Width of the circle border
 * innerLineWidth: CGFloat - Width of the lines in the circle
 
-Each state is defined by array of array of coordinates (CGPoint) in 5x5 field. Each array describes on connected line. If array contains only 1 coordinate then 0.25 unit of circle is drawn using the point as it's center. 
+Each state is defined by array of array of coordinates (CGPoint) in 5x5 field. Each array describes one connected line. If array contains only 1 coordinate then 0.25 unit of circle is drawn using the point as it's center. 
 
 ![screenshot]
 (img.PNG)
